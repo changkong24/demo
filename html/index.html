@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>backbone+require demo</title>
+    <link rel="stylesheet" href="../style/style.css"/>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <ul class="nav clearfix">
+            <li><a href="#">首 页</a></li>
+            <li><a href="#list">列表页面</a></li>
+            <li><a href="#form/">表单页面</a></li>
+        </ul>
+    </div>
+</div>
+<div class="main">
+    <div class="container">
+        <div class="pages">
+            <!-- 页面 -->
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <p>页脚版权信息</p>
+    </div>
+</div>
+</body>
+<script data-main="../script/main" src="../vendor/require/require.js"></script>
+<!-- templates -->
+<script id="list-template" type="text/template">
+    <% _.each(datas, function(item) { %>
+            <li>我叫<%= item.name %>,来自<%= item.group %></li>
+    <% }); %>
+</script>
+</html>

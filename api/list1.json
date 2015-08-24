@@ -1,0 +1,27 @@
+{
+    "totalPage" : 10,
+    "currentPage" : 1,
+    "listSize" : 10,
+    "attrs" : [
+                {
+                   "name" : "potato11111",
+                   "group" : "FE"
+                },
+                {
+                    "name" : "tomato111111",
+                    "group" : "BE"
+                },
+                {
+                    "name" : "apple11111",
+                    "group" : "HR"
+                },
+                {
+                    "name" : "banana11111",
+                    "group" : "HR"
+                },
+                {
+                    "name" : "orange11111",
+                    "group" : "PM"
+                }
+            ]
+}
